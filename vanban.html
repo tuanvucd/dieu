@@ -1,0 +1,354 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name ="msapplication-TileImage" content =""/>
+    <meta name ="msapplication-TileColor" content ="#B4DFF6"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <title></title>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet/less" type="text/css" href="less/styles.less" />
+    <script type="text/javascript" src="js/less.js"></script>
+
+    <link rel="stylesheet" href="css/stylesNav.css">
+    <script src="js/scriptNav.js"></script>
+
+    <link rel="stylesheet" href="js/slide/flexslider.css" />
+    <script type="text/javascript" src="js/slide/jquery.flexslider.js"></script>
+
+    <link rel="stylesheet" href="js/bxSlide/jquery.bxslider.css" />
+    <script type="text/javascript" src="js/bxSlide/jquery.bxslider.js"></script>
+
+
+    <script language="JavaScript">
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide"
+            });
+
+            $('.bxslider').bxSlider({
+                minSlides: 4,
+                maxSlides: 4,
+                slideWidth: 360,
+                slideMargin: 10
+            });
+        });
+
+
+    </script>
+
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="banner">
+        <div class="row">
+            <div class="col-md-9 col-sm-9">
+                <a href="#" class="logo"><img  src="images/logo.png"></a>
+                <img class="bannerText" src="images/bannerText.png">
+            </div>
+            <div class="col-md-3 col-sm-3 searchSection">
+                <div class="search">
+                    <div class="searchContainer">
+                        <input type="text" placeholder="Search">
+                        <input type="submit" value="">
+                    </div>
+                </div>
+                <div class="searchText">01/01/2016</div>
+                <div class="social">
+                    <a href="#"><img src="images/iconLink.png"></a>
+                    <a href="#"><img src="images/iconRss.png"></a>
+                    <a href="#"><img src="images/iconEmail.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div id='cssmenu'>
+            <ul>
+                <li><a href='#'>Trang chủ</a></li>
+                <li class='active'><a href='#'>Giới thiệu</a>
+                    <ul>
+                        <li><a href='#'>Giới thiệu 1</a>
+                            <ul>
+                                <li><a href='#'>Sub Product</a></li>
+                                <li><a href='#'>Sub Product</a></li>
+                            </ul>
+                        </li>
+                        <li><a href='#'>Giới thiệu 2</a>
+                            <ul>
+                                <li><a href='#'>Sub Product</a></li>
+                                <li><a href='#'>Sub Product</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href='#'>Thành viên</a>
+                    <ul>
+                        <li><a href='#'>Sub Product</a></li>
+                        <li><a href='#'>Sub Product</a></li>
+                    </ul>
+                </li>
+                <li><a href='#'>Cơ hội hợp tác</a></li>
+                <li><a href='#'>Sự kiện</a></li>
+                <li><a href='#'>Tin tức</a></li>
+                <li><a href='#'>Tiêu điểm</a></li>
+                <li><a href='#'>Liên hệ</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="slideBanner">
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="images/slideBanner.png" />
+                </li>
+                <li>
+                    <img src="images/slideBanner.png" />
+                </li>
+                <li>
+                    <img src="images/slideBanner.png" />
+                </li>
+                <li>
+                    <img src="images/slideBanner.png" />
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--main-->
+    <div class="mainHome">
+        <div class="row">
+            <!--left-->
+            <div class="col-sm-9">
+
+                <div class="block vanban">
+                    <div class="title"><label><a href="#">Tra cứu văn bản</a></label></div>
+                    <div class="blockContent searchVanBan">
+
+                        <div class="row ">
+
+                            <div class="col-sm-2">
+                                <label>Ký hiệu</label>
+                            </div>
+
+                            <div class="col-sm-4 ">
+                                <input type="text">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <label>Ngày ban hành</label>
+                            </div>
+
+                            <div class="col-sm-3 ">
+                                <input type="text">
+                            </div>
+
+                        </div>
+
+                        <div class="row ">
+
+                            <div class="col-sm-2">
+                                <label>Trích yếu</label>
+                            </div>
+
+                            <div class="col-sm-4 ">
+                                <input type="text">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <label>Cơ quan ban hành</label>
+                            </div>
+
+                            <div class="col-sm-3 ">
+                                <input type="text">
+                            </div>
+
+                        </div>
+
+                        <div class="row ">
+
+                            <div class="col-sm-2">
+                                <label>Trạng thái</label>
+                            </div>
+
+                            <div class="col-sm-4 ">
+                                <select>
+                                    <option>1</option>
+                                    <option>1</option>
+                                    <option>1</option>
+                                    <option>1</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-2 col-sm-offset-5">
+                                <input type="submit" value="Tìm kiếm">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="title"><label><a href="#">Kết quả tra cứu</a></label></div>
+                    <div class="blockContent ketquaVB">
+                        <table width="100%">
+                            <tr>
+                                <th width="10%">Ký hiệu</th>
+                                <th width="15%">Ngày ban hành</th>
+                                <th width="55%">Trích yếu</th>
+                                <th width="10%">Xem</th>
+                                <th width="10%">Download</th>
+                            </tr>
+                            <tr>
+                                <td>sgg</td>
+                                <td>sgg</td>
+                                <td>sgg</td>
+                                <td align="center"><a href="#"><img src="images/viewIcon.png"></a> </td>
+                                <td align="center"><a href="#"><img src="images/Downloads-icon.png"></a> </td>
+                            </tr>
+
+                            <tr>
+                                <td>sgg</td>
+                                <td>sgg</td>
+                                <td>sgg</td>
+                                <td align="center"><a href="#"><img src="images/viewIcon.png"></a> </td>
+                                <td align="center"><a href="#"><img src="images/Downloads-icon.png"></a> </td>
+                            </tr>
+
+                            <tr>
+                                <td>sgg</td>
+                                <td>sgg</td>
+                                <td>sgg</td>
+                                <td align="center"><a href="#"><img src="images/viewIcon.png"></a> </td>
+                                <td align="center"><a href="#"><img src="images/Downloads-icon.png"></a> </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>sgg</td>
+                                <td>sgg</td>
+                                <td>sgg</td>
+                                <td align="center"><a href="#"><img src="images/viewIcon.png"></a> </td>
+                                <td align="center"><a href="#"><img src="images/Downloads-icon.png"></a> </td>
+                            </tr>
+
+                            <tr>
+                                <td>sgg</td>
+                                <td>sgg</td>
+                                <td>sgg</td>
+                                <td align="center"><a href="#"><img src="images/viewIcon.png"></a> </td>
+                                <td align="center"><a href="#"><img src="images/Downloads-icon.png"></a> </td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="paging">
+                        <ul>
+                            <li class="previous">
+                                <span class="prev disabled" >&lt;&lt; </span>
+                            </li>
+                            <li>
+                                <span class="current">1</span>&nbsp;
+                                <span><a href="/tutscode/pages/page:2">2</a></span>&nbsp;
+                                <span><a href="/tutscode/pages/page:3">3</a></span>&nbsp;
+                                <span><a href="/tutscode/pages/page:4">4</a></span>&nbsp;
+                                <span><a href="/tutscode/pages/page:5">5</a></span>
+                            </li>
+                            <li class="next">
+                                <span class="next"><a href="/tutscode/pages/page:2" rel="next"> &gt;&gt;</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <!--left-->
+
+            <!--right-->
+            <div class="col-sm-3">
+                <div class="rightDieuhanh">
+                    <div class="titleDieuhanh"><img src="images/vanbanICon.png"> Chi dao dieu hanh</div>
+
+                    <div class="contentDieuhanh">
+                        <ul>
+                            <li><a href="#">asdgdgsd hfghfghfdhf</a> </li>
+                            <li><a href="#">asdgdgsd hfghfghfdhf</a> </li>
+                            <li><a href="#">asdgdgsd hfghfghfdhf</a> </li>
+                            <li><a href="#">asdgdgsd hfghfghfdhf</a> </li>
+                            <li><a href="#">asdgdgsd hfghfghfdhf</a> </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="quangcaoRight">
+                    <a href="#"><img src="images/right1.jpg"></a>
+                    <a href="#"><img src="images/right2.jpg"></a>
+                    <a href="#"><img src="images/right3.jpg"></a>
+                </div>
+
+                <div class="rightLink">
+                    <div class="titleLink">
+                        <img src="images/linkwebBg.png">
+                    </div>
+                    <div class="linkContent">
+                        <ul>
+                            <li><a href="#">asdgdgsd hfghfghfdhf</a> </li>
+                            <li><a href="#">asdgdgsd hfghfghfdhf</a> </li>
+                            <li><a href="#">asdgdgsd hfghfghfdhf</a> </li>
+                            <li><a href="#">asdgdgsd hfghfghfdhf</a> </li>
+                            <li><a href="#">asdgdgsd hfghfghfdhf</a> </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="quangcaoRight">
+                    <a href="#"><img src="images/right1.jpg"></a>
+                    <a href="#"><img src="images/right2.jpg"></a>
+                    <a href="#"><img src="images/right3.jpg"></a>
+                </div>
+            </div>
+            <!--right-->
+        </div>
+    </div>
+    <!--main-->
+
+    <!--footer-->
+    <div class="footer">
+        <div class="navFooter">
+            <ul>
+                <li><a href='#'>Trang chủ</a></li>
+                <li class='active'><a href='#'>Giới thiệu</a>
+                <li><a href='#'>Thành viên</a></li>
+                <li><a href='#'>Cơ hội hợp tác</a></li>
+                <li><a href='#'>Sự kiện</a></li>
+                <li><a href='#'>Tin tức</a></li>
+                <li><a href='#'>Tiêu điểm</a></li>
+                <li><a href='#'>Liên hệ</a></li>
+            </ul>
+        </div>
+        <div class="footerContent">
+            Bản quyền © 2014 - Tổng cục Dạy nghề<br>
+            Giấy phép thiết lập Website trên internet số 53/GP-TTĐT ngày 02/10/2014<br>
+            Địa chỉ: 37B Nguyễn Bỉnh Khiêm - Quận Hai Bà Trưng, Hà Nội<br>
+            Điện thoại: 04.3974 0333 - Fax: 04.3974 0339<br>
+            Email: lienhe@tcdn.gov.vn - Website: www.tcdn.gov.vn
+        </div>
+    </div>
+    <!--footer-->
+
+</div>
+
+</body>
+</html>
